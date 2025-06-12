@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px;
+    padding: 10px 16px 20px 16px;
+}
+
+.columna {
+    justify-content: center;
+    background-color: #ff0000;
+    height: 100%;
+    border: 1px solid #333;
+    width: 120px;
+}
