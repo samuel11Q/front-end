@@ -1,0 +1,127 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.box {
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin: 0;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.d {
+    color: green;
+    text-decoration: line-through;
+}
+
+.c {
+    color: red;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.linea {
+    display: flex;
+    color: green;
+}
+
+/* Puedes agregar esto a tu style.css */
+
+
+.box-2 {
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: auto;
+    background: #fff;
+    box-shadow: 10px 2px 20px rgba(0, 0, 0, 0.10);
+    padding: 30px 25px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+
+form input,
+form textarea,
+form select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    transition: border 0.2s;
+    width: 200px;
+
+    box-sizing: border-box;
+
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    border: 1.5px solid #007bff;
+}
+
+.caja {
+    gap: 20PX;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+button:hover {
+    box-shadow: #505050be 0px 5px 15px;
+    transform: translateY(-2PX);
+    background-color: #910000fb;
+    transition: 0.5s;
+
+}
+
+.cancelar:hover {
+    box-shadow: #505050be 0px 5px 15px;
+    transform: translateY(-2PX);
+    background-color: #910000fb;
+    transition: 0.5s;
+}
