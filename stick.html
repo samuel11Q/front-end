@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de Position en CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      height: 2000px; /* Para que haya scroll */
+      margin: 0;
+      padding: 0;
+    }
+
+    .contenedor {
+      position: relative;
+      background-color: #eee;
+      height: 300px;
+      margin: 20px;
+      border: 2px solid #333;
+    }
+    .p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #000000;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .st{
+      position: sticky;
+      width: 2000px;
+      top: 0;
+      background-color: #f1c40f;
+      padding: 10px;
+ 
+      border: 2px solid #333;
+    }
+
+    .box {
+      width: 150px;
+      height: 80px;
+      padding: 10px;
+      color: #fff;
+    }
+
+    .static {
+      background-color: #3498db;
+      position: static;
+    }
+
+    .relative {
+      background-color: #e67e22;
+      position: relative;
+      top: 80px;
+      left: 50px;
+    }
+
+    .absolute {
+      background-color: #9b59b6;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .fixed {
+      background-color: #2ecc71;
+      position: fixed;
+      bottom: 10px;
+  
+      right: 10px;
+      
+    }
+
+    .sticky {
+      background-color: #e74c3c;
+      position: sticky;
+      top: 0;
+    }
+
+    h2 {
+      margin: 0;
+      right: 500px;
+      background-color: #444;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2 class="sticky">Soy sticky: me quedo pegado arriba al hacer scroll</h2>
+  <table class="st">
+      <tr>
+        fr
+      <td>Columna 1</td>
+      <td>Columna 2</td>
+      <td>Columna 3</td>
+      <td>Columna 4</td>
+    </tr></table>
+
+  <div class="contenedor">
+    <div class="p"><p>HELLO</p></div>
+
+    <div class="box static">Static (por defecto)</div>
+    
+
+    <div class="box relative">Relative (20px desde top y left)</div>
+    <div class="box absolute">Absolute (posición dentro del contenedor)</div>
+  </div>
+ta
+  <div class="box fixed">Fixed (siempre en la esquina inferior derecha)</div>
+<!--Crear un elemento <p> con la palabra HELLO  y centrarla dentro del contenedor utilizando el 
+    position adecuado-- utilice un fondo #000000-->
+  
+
+<!--Crear un elemento <table> 1 fila y 4 columnas posicionela debajo del stick con la misma position stick-->
+
+
+
+</body>
+</html>
