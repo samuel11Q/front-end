@@ -1,0 +1,50 @@
+body{
+   
+    font-family: sans-serif;/* da el tipo de letra */
+    background-color: #fff;/*da el color de toda la pagina en el fondo */
+    padding: 40px;/*margen del contenido hacia afuera*/
+}
+
+.contenedor{
+    display: flex;/*utiliza el modelo de caja flexible para alinear los elementos dentro del contenedor*/
+    flex-wrap: wrap;/*permite que los elementos dentro del contenedor se ajusten a varias lineas si es necesario*/
+    justify-content: center;/*centra los elementos dentro del contenedor*/
+    position: relative;/*posiciona el contenedor relativo a su posicion normal*/
+    width: 400px;   /*ancho del contenedor*/
+    height: 300px;  /*alto del contenedor*/
+    background-color: #fff;/*color de fondo del contenedor*/
+    margin: 0 auto;/*centra el contenedor horizontalmente*/
+    border-radius: 10px;/*bordes redondeados del contenedor*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);/*sombra del contenedor*/
+    
+}
+.caja{
+    width: 100px;/*ancho de la caja*/
+    height: 100px;/*alto de la caja*/
+    color: #000;/*color del texto dentro de la caja*/
+    text-align: center;/*alineacion del texto al centro*/
+    font-weight: bold;/*negrita del texto*/
+    position: absolute;/*posiciona la caja de forma absoluta*/
+}
+
+.caja1{
+    background-color: crimson;/*color de fondo de la caja*/
+    top: 10px;/*posiciona la caja 10px desde la parte superior del contenedor*/
+    left: 10px;/*posiciona la caja 10px desde la parte izquierda del contenedor*/
+    position: absolute;/*posiciona la caja de forma estatica, es decir, en su posicion normal*/
+}
+
+.caja2{
+    background-color: royalblue;/*color de fondo de la caja*/
+    top:10px;/*posiciona la caja 10px desde la parte superior del contenedor*/
+    left: 10px;/*posiciona la caja 10px desde la parte izquierda del contenedor*/
+    position: absolute;/*posiciona la caja de forma sticky, es decir, se queda fija al hacer scroll hasta que se sale del contenedor*/
+}
+.caja3{
+    background-color: seagreen;/*color de fondo de la caja*/
+    top: 10px;/*posiciona la caja 10px desde la parte inferior del contenedor*/
+    left: 10px;/*posiciona la caja 10px desde la parte izquierda del contenedor*/
+    position: absolute;/*posiciona la caja de forma fija, es decir, siempre en la misma posicion en la pantalla*/
+    align-items: space-;/*distribuye los elementos dentro del contenedor con espacio alrededor de ellos*/
+    justify-content: column-re;
+}
