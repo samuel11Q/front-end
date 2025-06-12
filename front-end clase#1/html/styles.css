@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    text-align: left;
+    box-shadow: 1px 1px 1px 1px #24384d5d;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.foto img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #24384d5d;
+}
+
+.contacto {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    
+}
+button{
+    border-radius: 20%;
+    border: 0.21px solid #ddd;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.button:hover{
+    background: rgb(0, 255, 170);
+    
+}
+.contenedor-habilidades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-habilidades ul {
+    width: 48%;
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
