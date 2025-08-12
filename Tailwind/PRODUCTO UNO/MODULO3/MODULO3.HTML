@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 3 - Diseño avanzado</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <!-- Menú Responsive -->
+  <nav class="bg-blue-600 p-4 text-white flex justify-between items-center">
+    <h1 class="font-bold">Mi Sitio</h1>
+    <button class="md:hidden">☰</button>
+    <ul class="hidden md:flex gap-4">
+      <li><a href="#" class="hover:underline">Inicio</a></li>
+      <li><a href="#" class="hover:underline">Servicios</a></li>
+      <li><a href="#" class="hover:underline">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección con gradiente y sombra -->
+  <section class="bg-gradient-to-r from-blue-500 to-green-500 shadow-lg p-10 text-white mt-8 text-center rounded-lg">
+    <h2 class="text-3xl font-bold mb-4">Sección con Gradiente</h2>
+    <p>Este es un ejemplo de sección con gradiente y sombra en Tailwind.</p>
+  </section>
+
+  <!-- Animaciones -->
+  <div class="flex gap-10 justify-center mt-10">
+    <div class="bg-red-500 w-16 h-16 rounded-full animate-bounce"></div>
+    <div class="bg-yellow-500 w-16 h-16 rounded-full animate-pulse"></div>
+  </div>
+
+</body>
+</html>
+

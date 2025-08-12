@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 2 - Componentes reutilizables</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <h1 class="text-2xl font-bold mb-6 text-center">Botones con Estados</h1>
+
+  <!-- Botones -->
+  <div class="flex gap-4 justify-center mb-8">
+    <button class="bg-blue-500 hover:bg-blue-700 active:bg-blue-900 text-white px-4 py-2 rounded">Activo</button>
+    <button class="bg-gray-400 text-white px-4 py-2 rounded" disabled>Deshabilitado</button>
+  </div>
+
+  <h1 class="text-2xl font-bold mb-6 text-center">Tarjeta con Imagen</h1>
+
+  <!-- Card -->
+  <div class="max-w-sm mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
+    <img src="https://via.placeholder.com/400x200" alt="Imagen" class="w-full">
+    <div class="p-4">
+      <h2 class="text-xl font-semibold mb-2">Título de la tarjeta</h2>
+      <p class="text-gray-600 mb-4">Descripción breve del contenido de la tarjeta.</p>
+      <button class="bg-green-500 hover:bg-green-700 text-white px-4 py-2 rounded">Ver más</button>
+    </div>
+  </div>
+
+  <h1 class="text-2xl font-bold mt-10 mb-6 text-center">Formulario Estilizado</h1>
+
+  <!-- Formulario -->
+  <form class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg space-y-4">
+    <input type="text" placeholder="Nombre" class="w-full border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+    <select class="w-full border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+      <option>Opción 1</option>
+      <option>Opción 2</option>
+    </select>
+    <textarea placeholder="Escribe aquí..." class="w-full border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">Enviar</button>
+  </form>
+
+</body>
+</html>
